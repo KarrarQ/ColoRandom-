@@ -58,7 +58,7 @@ function savePalette() {
     }
       miniSavedPalettes.innerHTML += `<img class= "mini_trashCan" src="./imgFolder/trash-can.png" alt="trash can icon">`
   }
-  mainPalette.replaceColor();
+  generateNewPalette();
 }
 
 function lockColor1() {
